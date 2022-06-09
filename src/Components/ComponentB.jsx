@@ -13,6 +13,6 @@ export const ComponentB = () => {
 
 	return <div>
 		<input type="text" onChange={(e) => handlechange(e.target.value)} />
-		<button>Submit</button>
+		{/* <button>Submit</button> */}
 	</div>
 }
